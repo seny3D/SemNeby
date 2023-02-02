@@ -53,7 +53,7 @@ async def igra(l, k=None):
 @bot.command()
 async def sps(k):
     if k.channel.name == "арсений":
-        await k.send("Луис спс")
+        await k.send("Луис сп")
 
 @bot.command()
 async def hi(h):
