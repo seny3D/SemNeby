@@ -36,7 +36,7 @@ async def start(m, *, a=None):
         elif a is None:
             await m.send("Нет аргумента, напиши !start help")
         elif a == 'creator':
-            await m.send("Создатель - @мшкфреде#4413")
+            await m.send("Создатель - мшкфреде#4413")
 
 @bot.command()
 async def igra(l, k=None):
